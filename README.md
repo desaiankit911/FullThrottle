@@ -21,9 +21,15 @@ DATABASE:
 COMMAND:
 
 	this command is use to upload json file which contain User's data into Database
+	
+	1.
 	>>> py -3.8 manage.py insert 'file_path'
 	exmple:
 		py -3.8 manage.py insert C:\Users\Rupali\Documents\ankit\FullThrottle\myApp\FullThrottle\test.json
+		
+	2.
+	>>> py -3.8 manage.py insert userData
+	(this command contain hardcoded data)
 	
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
