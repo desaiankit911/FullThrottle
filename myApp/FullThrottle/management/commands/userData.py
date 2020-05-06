@@ -1,7 +1,6 @@
 from django.core.management.base import BaseCommand, CommandError
 from FullThrottle.models import UserData
 from FullThrottle.models import timeStamp
-from FullThrottle.models import UserDataForm
 
 
 class Command(BaseCommand):
@@ -36,4 +35,4 @@ class Command(BaseCommand):
                     data2 = timeStamp(user_id=data1,
                                       start_time=start_time[i], end_time=end_time[i])
                     data2.save()
-        return 'User Data Created'
+        return 'User Data Uploded'
